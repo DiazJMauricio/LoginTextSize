@@ -1,33 +1,43 @@
 .App {
   text-align: center;
+  background-color: rgb(196, 216, 87);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.controller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controller > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 5vw;
+}
+.controller canvas {
+  display: none;
+  position: absolute;
   pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.TextLabel {
+  min-height: 1.1em;
+  border-radius: 10px;
+  background-color: rgb(215, 235, 102);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-
-.App-link {
-  color: #61dafb;
+.InputText {
+  width: 20vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.InputText input {
+  width: 100%;
+  padding: 0.5em 1em;
+  outline: none;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 3em;
 }

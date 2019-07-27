@@ -1,23 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Controller from "./Components/Controller";
 
 function App() {
+  const [boxWidth, setBoxWidth] = useState(820);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Controller boxWidth={boxWidth} />
+        <input
+          type="range"
+          min="420"
+          max="820"
+          value={boxWidth}
+          onChange={e => {
+            setBoxWidth(e.target.value);
+          }}
+        />
       </header>
     </div>
   );
