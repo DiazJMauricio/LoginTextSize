@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LoginTextSize/static/css/main.267f05fd.chunk.css",
+    "main.js": "/LoginTextSize/static/js/main.df00236f.chunk.js",
+    "main.js.map": "/LoginTextSize/static/js/main.df00236f.chunk.js.map",
+    "runtime~main.js": "/LoginTextSize/static/js/runtime~main.706bae48.js",
+    "runtime~main.js.map": "/LoginTextSize/static/js/runtime~main.706bae48.js.map",
+    "static/js/2.c2695c00.chunk.js": "/LoginTextSize/static/js/2.c2695c00.chunk.js",
+    "static/js/2.c2695c00.chunk.js.map": "/LoginTextSize/static/js/2.c2695c00.chunk.js.map",
+    "index.html": "/LoginTextSize/index.html",
+    "precache-manifest.1b6b98cbc41081f80b4d2eaa40e8fd30.js": "/LoginTextSize/precache-manifest.1b6b98cbc41081f80b4d2eaa40e8fd30.js",
+    "service-worker.js": "/LoginTextSize/service-worker.js",
+    "static/css/main.267f05fd.chunk.css.map": "/LoginTextSize/static/css/main.267f05fd.chunk.css.map"
+  }
+}
